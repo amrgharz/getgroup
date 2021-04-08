@@ -10,6 +10,8 @@ function getgroup_theme_support(){
 function get_group_menus(){
     $loactions = array(
         'primary' => 'Main Menu',
+        'footer-left-1' => 'Footer Left 1',
+        'footer-left-2' => 'Footer Left 2',
         'footer'  => 'Footer Menu'
     );
     register_nav_menus($loactions);
@@ -65,5 +67,19 @@ function getgroup_widget_areas(){
 }
 
 add_action('widgets_init', 'getgroup_widget_areas');
+
+//Header Image
+function getgroup_custom_header_setup() {
+    $args = array(
+        'default-image'      => get_template_directory_uri() . 'img/default-image.jpg',
+        'default-text-color' => '000',
+        'width'              => 1000,
+        'height'             => 200,
+        'flex-width'         => true,
+        'flex-height'        => true,
+    );
+    add_theme_support( 'custom-header', $args );
+}
+add_action( 'after_setup_theme', 'getgroup_custom_header_setup' );
 ?>
 

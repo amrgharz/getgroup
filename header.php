@@ -17,11 +17,14 @@
         <div class="upper-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm text-left">
+                    <div class="col-sm text-left contact">
                         <i class="fas fa-phone"></i>Contact Sales
                     </div>
-                    <div class="col-sm text-right">
-                        <i class="fas fa-search"></i> | EN <i class="fas fa-angle-down"></i>
+                    <div class="col-sm text-right ">
+                        <i class="fas fa-search search dropdown">|
+                            
+                        </i> 
+                        <i class="fas fa-angle-down lang">  EN </i>
                     </div>
                 </div>
             </div>
@@ -30,18 +33,23 @@
         <!-- Start Main Navbar -->
         <nav class="navbar navbar-light bg-light justify-content-between">
             <div class="container">
-                <a class="navbar-brand"><?php  echo get_bloginfo('name');?></a>
                 <?php 
                     if(function_exists('the_custom_logo')){
                         the_custom_logo();
                     }
                 ?>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <?php 
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'primary',
+
+                                )
+                                );
+                        
+                        ?>
             </div>
         </nav>
+        <img alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
         <?php dynamic_sidebar('sidebar-1')?>
         <!-- End Main Navbar -->
     </header>
