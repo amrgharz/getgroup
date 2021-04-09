@@ -49,7 +49,7 @@
                         ?>
             </div>
         </nav>
-        <img alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
+        <img class="img-fluid" alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
         <?php dynamic_sidebar('sidebar-1')?>
         <!-- End Main Navbar -->
     </header>
