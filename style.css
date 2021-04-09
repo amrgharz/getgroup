@@ -93,3 +93,57 @@ ul {
   display: contents !important;
 }
 /* News Page Styles */
+.card .card-header button {
+  font-family: "eurostile bold", Roboto, Helvetica Neue, Arial, sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+/* Downloads Page Styles */
+
+/* Downloads Page Styles */
+/* Bootstrap Accordion Arrows */
+/* .panel-title > button a,
+.panel-title > button:active {
+  display: block;
+  padding: 15px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-decoration: none;
+}
+.panel-heading button:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e114";
+  float: right;
+  transition: all 0.5s;
+}
+.panel-heading.active button:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+} */
+/* Bootstrap Accordion Arrows */
+
+/* Media Queries */
+@media only screen and (max-width: 780px) {
+  .footer-second .first-item,
+  .footer-second .second-item {
+    border: none;
+  }
+  .footer-second .first-item {
+    text-align: center;
+  }
+  .footer-second .first-item form {
+    display: block;
+  }
+  .footer-second .first-item,
+  .footer-second .second-item,
+  .footer-second .third-item {
+    margin-bottom: 15px;
+  }
+}
+/* Media Queries */

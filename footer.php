@@ -1,8 +1,8 @@
 <footer>
     <div class="footer-first">
         <div class="container">
-        <div class="row">
-            <div class="first-item col-md-4">
+        <div class="row text-center">
+            <div class="first-item col-md-4 col">
                 <h2>SiteMap</h2>
                 <div class="row">
                     <div class="col-sm">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="second-item col-md-4">
+            <div class="second-item col-md-4 text-center">
                 <h2>Certifications</h2>
                 <img class="center" src="https://www.getgroup.com/wp-content/themes/get-group-holdings/assets/images/logo/ISO-CMMI-LG-01-DXB-03-2021-EN-WHITE-FOR-WEB.png" alt="alt-text">
             </div>
@@ -57,14 +57,14 @@
         <div class="footer-second">
         <div class="container">
         <div class="row">
-            <div class="first-item col-md-4">
+            <div class="first-item col-md-4 col-sm-12">
                 <h2>Receive the latest GET Group news</h2>
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
-            <div class="second-item col-md-4">
+            <div class="second-item col-md-4 col-sm-12 text-center">
                 <h2>Follow us on social media</h2>
                 <!-- Social buttons -->
                 <ul class="list-unstyled list-inline text-center">
@@ -96,7 +96,7 @@
                 </ul>
             <!-- Social buttons -->
             </div>
-            <div class="third-item col-md-4 text-center">
+            <div class="third-item col-md-4 text-center col-sm-12">
                 <h2>Location Map</h2>
                 
                 <a class="text-white" target="_blank" rel="noopener" href="https://www.google.com/maps/place/GET+Group+Holdings+Ltd/@25.2082305,55.2762128,15z/data=!4m12!1m6!3m5!1s0x0:0xefab9fc44cb6ac16!2sGET+Group+Holdings+Ltd!8m2!3d25.2082305!4d55.2762128!3m4!1s0x0:0xefab9fc44cb6ac16!8m2!3d25.2082305!4d55.2762128"><i class="fas fa-map"></i></a>
